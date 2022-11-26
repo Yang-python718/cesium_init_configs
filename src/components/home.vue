@@ -9,15 +9,15 @@ export default {
     init() {
       const Cesium=this.Cesium
       let viewer = new Cesium.Viewer("cesiumContainer",{
-        animation: false,
-        baseLayerPicker: false,
-        geocoder: true,
-        timeline: false,
-        sceneModePicker: true,
-        navigationHelpButton: false,
+        animation: false, //动画器件
+        baseLayerPicker: true,  //图层选择器
+        geocoder: true, //查找控件
+        timeline: false, //时间线
+        sceneModePicker: true,  //二三维切换控件
+        navigationHelpButton: false,  //导航帮助问号控件
         showRenderLoopErrors: true,
-        fullscreenButton: true,
-        fullscreenElement: 'cesiumContainer',
+        fullscreenButton: false,  //全屏
+        fullscreenElement: 'cesiumContainer', //按下全屏按钮时要置于全屏模式的元素或ID
         infoBox: true
       });
       viewer.infoBox.frame.removeAttribute("sandbox");
@@ -28,7 +28,7 @@ export default {
         destination: Cesium.Cartesian3.fromDegrees(
             114.296063,
             30.55245,
-            20000000
+            2000000
         ),
         orientation: {
           heading: Cesium.Math.toRadians(0),
