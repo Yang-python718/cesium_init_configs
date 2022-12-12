@@ -29,7 +29,7 @@ module.exports = defineConfig({
       }),
       new webpack.DefinePlugin({
         // Define relative base path in cesium for loading assets
-        CESIUM_BASE_URL: JSON.stringify('')
+        CESIUM_BASE_URL: JSON.stringify('./')
       })
     ],
   }

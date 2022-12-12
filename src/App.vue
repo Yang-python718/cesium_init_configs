@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <home/>
+    <leftaside/>
+    <router-link to="/home"></router-link>
+    <router-link to="/add_entity"></router-link>
+    <router-link to="/add_3DTiles"></router-link>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import home from "@/components/home";
-
+import leftaside from "@/common_components/leftaside";
 export default {
   name: 'App',
   components: {
-    home
-  }
+    leftaside,
+  },
+
 }
 </script>
 
