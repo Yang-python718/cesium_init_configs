@@ -26,6 +26,14 @@ const routes = [
         name:'加载3DTiles',
         meta:{},
         component:()=>import('@/components/class3-add_3DTiles')
+    },
+    {
+        path:'/add_entity_material',
+        name:'添加entity材质',
+        meta:{
+            tips:'添加几种材质加载方式',
+        },
+        component:()=>import('@/components/class4-add_entity_material')
     }
 ]
 const router = new VueRouter({

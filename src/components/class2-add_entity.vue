@@ -33,10 +33,10 @@ export default {
       viewer._cesiumWidget._creditContainer.style.display = "none"; //版权信息
       viewer.scene.debugShowFramesPerSecond = true; //帧率显示
       const redBox = viewer.entities.add({ //添加实体盒子
-        name: 'Red box with black outline',
-        position: Cesium.Cartesian3.fromDegrees(-107.0, 40.0, 300000.0),
+        name: '实体盒子--Red box with black outline',
+        position: Cesium.Cartesian3.fromDegrees(-107.0, 40.0, 0),
         box: {
-          dimensions: new Cesium.Cartesian3(400000.0, 300000.0, 500000.0),
+          dimensions: new Cesium.Cartesian3(400000.0, 300000.0, 50000.0),
           material: Cesium.Color.RED.withAlpha(0.5),
           outline: true,
           outlineColor: Cesium.Color.BLACK

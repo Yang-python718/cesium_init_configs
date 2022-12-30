@@ -4,6 +4,7 @@
     <router-link to="/home"></router-link>
     <router-link to="/add_entity"></router-link>
     <router-link to="/add_3DTiles"></router-link>
+    <router-link to="/add_entity_material"></router-link>
     <router-view/>
   </div>
 </template>

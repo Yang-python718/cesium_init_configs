@@ -20,9 +20,9 @@
       <i class="el-icon-document"></i>
       <span slot="title">加载3DTiles</span>
     </el-menu-item>
-    <el-menu-item index="4">
+    <el-menu-item index="/add_entity_material">
       <i class="el-icon-setting"></i>
-      <span slot="title">导航四</span>
+      <span slot="title">加载entity材质</span>
     </el-menu-item>
   </el-menu>
   </div>

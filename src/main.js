@@ -5,7 +5,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
 
-import "cesium/widgets.css";
+import "cesium/Source/Widgets/widgets.css";
 import * as Cesium from "cesium";
 import router from "@/router";
 
