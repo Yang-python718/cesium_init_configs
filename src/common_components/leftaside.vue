@@ -24,6 +24,10 @@
       <i class="el-icon-setting"></i>
       <span slot="title">加载entity材质</span>
     </el-menu-item>
+    <el-menu-item index="/booklearn">
+      <i class="el-icon-reading"></i>
+      <span slot="title">书籍学习练习</span>
+    </el-menu-item>
   </el-menu>
   </div>
 </template>

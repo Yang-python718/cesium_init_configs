@@ -1,5 +1,5 @@
 <template>
-<div id="cesiumContainer"></div>
+  <div id="cesiumContainer"></div>
 </template>
 
 <script>
@@ -12,6 +12,7 @@ export default {
   },
   methods: {
     init() {
+      let that=this;
       const Cesium=this.Cesium
       this.viewer = new Cesium.Viewer("cesiumContainer",{
         animation: false, //动画器件
@@ -50,9 +51,9 @@ export default {
 
     }},
   mounted() {
-   this.init();
-   // this.$bus.$emit('sendbaseviewer',this.viewer)
-    }
+    this.init();
+    // this.$bus.$emit('sendbaseviewer',this.viewer)
+  }
 }
 </script>
 

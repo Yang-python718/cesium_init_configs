@@ -23,7 +23,9 @@ export default {
         timeline: false, //时间线
         sceneModePicker: true,  //二三维切换控件
         navigationHelpButton: false,  //导航帮助问号控件
+        targetFrameRate:100, //当前浏览器配置下最高能跑60帧
         showRenderLoopErrors: true,
+        selectionIndicator:false,
         fullscreenButton: true,  //全屏
         fullscreenElement: 'cesiumContainer', //按下全屏按钮时要置于全屏模式的元素或ID
         infoBox: true,

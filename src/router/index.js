@@ -34,6 +34,14 @@ const routes = [
             tips:'添加几种材质加载方式',
         },
         component:()=>import('@/components/class4-add_entity_material')
+    },
+    {
+        path:'/booklearn',
+        name:'书籍学习练习',
+        meta:{
+            tips:'书籍学习练习demo',
+        },
+        component:()=>import('@/components/booklearn')
     }
 ]
 const router = new VueRouter({

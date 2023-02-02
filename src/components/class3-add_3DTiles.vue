@@ -56,7 +56,7 @@ export default {
             modelMatrix: m //形状变换矩阵
           }));
       // 3DTiles旋转》》创建旋转矩阵
-      const m1=Cesium.Matrix3.fromRotationX(Cesium.Math.toRadians(0.005));
+      const m1=Cesium.Matrix3.fromRotationX(Cesium.Math.toRadians(0));
       tileset.modelMatrix=Cesium.Matrix4.multiplyByMatrix3(m,m1,new Cesium.Matrix4());
 
       // 所有瓦片加载完毕的promise
