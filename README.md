@@ -2,8 +2,7 @@
 -----只做学习使用，还在不断完善中！
 
 
-> 
-## Project setup
+> ## Project setup
 ```
 npm install
 ```
