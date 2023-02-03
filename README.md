@@ -31,3 +31,4 @@
 > ### Customize configuration
 > See [Configuration Reference](https://cli.vuejs.org/config/).   
 > ### To see more configuration of this project,please read package.json file. ###
+![鸭子表情包](https://user-images.githubusercontent.com/75878333/216546820-90d2493d-253f-4083-889e-0cf108c547d5.gif)
